@@ -2,6 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  // Název vašeho GitHub repozitáře, ohraničený lomítky!
+  base: '/dsrhelp/',
   title: "Uživatelská příručka DSŘ",
   description: "Sada příruček DSŘ",
   themeConfig: {
