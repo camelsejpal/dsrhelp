@@ -1,25 +1,21 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "Uživatelská příručka DSŘ"
-  text: "Sada příruček DSŘ"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  name: "ISSŘ Nápověda"
+  text: "Informační systém stavebního řízení"
+  tagline: "Vyberte si příručku, kterou potřebujete"
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: "Obecná příručka"
+    details: "Kompletní návod pro referenty a úředníky. Obsahuje vše od přihlášení až po řízení a dokumenty."
+    link: "/obecna-prirucka/00-Uvodni-informace" # Odkaz na první soubor ve složce
+    
+  - title: "Příručka lokálního administrátora"
+    details: "Návod pro správu uživatelů, nastavování rolí a údržbu systému na úrovni úřadu."
+    link: "/admin-prirucka/01-Uvod-pro-adminy" # Zde pak dáte reálný odkaz
+    
+  - title: "Portál stavebníka"
+    details: "Průvodce pro externí uživatele a žadatele."
+    link: "/portal-stavebnika/01-Uvod"
 ---
-
