@@ -13,7 +13,7 @@ features:
     
   - title: "Příručka lokálního administrátora"
     details: "Návod pro správu uživatelů, nastavování rolí a údržbu systému na úrovni úřadu."
-    link: "/admin-prirucka/01-Uvod-pro-adminy" # Zde pak dáte reálný odkaz
+    link: "/admin-prirucka/00-Titulni-strana" # Zde pak dáte reálný odkaz
     
   - title: "Portál stavebníka"
     details: "Průvodce pro externí uživatele a žadatele."
