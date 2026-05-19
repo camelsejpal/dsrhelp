@@ -10,11 +10,13 @@ export default defineConfig({
     // Horní navigační menu
     nav: [
       { text: 'Domů', link: '/' },
-      { text: 'Obecná příručka', link: '/obecna-prirucka/00-Uvodni-informace' }
+      { text: 'Obecná příručka', link: '/obecna-prirucka/00-Uvodni-informace' },
+      { text: 'Příručka lokálního administrátora', link: '/admin-prirucka/00-Titulni-strana' }
     ],
 
-    // Levé menu (Sidebar) strukturované tak, aby se ukázalo jen u této příručky
+    // Vícenásobné levé menu (Sidebar) rozdělené podle složek
     sidebar: {
+      // SEKCE PRO OBECNOU PŘÍRUČKU
       '/obecna-prirucka/': [
         {
           text: 'Obecná příručka',
@@ -38,6 +40,21 @@ export default defineConfig({
             { text: '16. Přerušení řízení', link: '/obecna-prirucka/16-16-Přerušení-řízení' },
             { text: '17. Vyznačení nabytí právní moci', link: '/obecna-prirucka/17-17-Vyznačení-nabytí-právní-moci' },
             { text: '18. Nahlížení do spisu interně', link: '/obecna-prirucka/18-18-Nahlížení-do-spisu-v-rámci-jednoho-úřadu-intern' }
+          ]
+        }
+      ],
+
+      // SEKCE PRO PŘÍRUČKU LOKÁLNÍHO ADMINISTRÁTORA
+      '/admin-prirucka/': [
+        {
+          text: 'Příručka lokálního administrátora',
+          items: [
+            { text: 'Titulní strana', link: '/admin-prirucka/00-Titulni-strana' },
+            { text: '1. Verze dokumentu', link: '/admin-prirucka/01-1-Verze-dokumentu' },
+            { text: '2. Použité zkratky', link: '/admin-prirucka/02-2-Pouzite-zkratky' },
+            { text: '3. Účel dokumentu', link: '/admin-prirucka/03-3-Ucel-dokumentu' },
+            { text: '4. Přihlášení', link: '/admin-prirucka/04-4-Prihlaseni' },
+            { text: '5. Administrace – lokální administrátor', link: '/admin-prirucka/05-5-Administrace-lokalni-administrator' }
           ]
         }
       ]
