@@ -2,12 +2,6 @@
 title: Titulní strana
 ---
 
-![](_page_0_Picture_0.jpeg)
-
-![](_page_0_Picture_1.jpeg)
-
-![](_page_0_Picture_2.jpeg)
-
 # **Příručka lokálního administrátora**
 
 # **Informační systém stavebního řízení**
@@ -15,12 +9,6 @@ title: Titulní strana
 ![](_page_0_Picture_5.jpeg)
 
 **Zpracovatel: InQool, a.s. Svatopetrská 35/7, 617 00 Brno IČ: 29222389, DIČ: CZ29222389**
-
-![](_page_1_Picture_0.jpeg)
-
-![](_page_1_Picture_1.jpeg)
-
-![](_page_1_Picture_2.jpeg)
 
 # Obsah
 
