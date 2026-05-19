@@ -54,7 +54,7 @@ export default defineConfig({
             { text: '2. Použité zkratky', link: '/admin-prirucka/02-2-Pouzite-zkratky' },
             { text: '3. Účel dokumentu', link: '/admin-prirucka/03-3-Ucel-dokumentu' },
             { text: '4. Přihlášení', link: '/admin-prirucka/04-4-Prihlaseni' },
-            { text: '5. Administrace – lokální administrátor', link: '/admin-prirucka/05-5-Administrace-lokalni-administrator' }
+            { text: '5. Administrace lokální administrátor', link: '/admin-prirucka/05-5-Administrace-lokalni-administrator' }
           ]
         }
       ]
