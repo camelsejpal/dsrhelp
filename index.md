@@ -7,15 +7,18 @@ hero:
   tagline: "Vyberte si příručku, kterou potřebujete"
 
 features:
-  - title: "Obecná příručka"
+  - icon: 📘
+    title: "Obecná příručka"
     details: "Kompletní návod pro referenty a úředníky. Obsahuje vše od přihlášení až po řízení a dokumenty."
-    link: "/obecna-prirucka/00-Uvodni-informace" # Odkaz na první soubor ve složce
+    link: "/obecna-prirucka/00-uvodni-informace"
     
-  - title: "Příručka lokálního administrátora"
+  - icon: 🛠️
+    title: "Příručka lokálního administrátora"
     details: "Návod pro správu uživatelů, nastavování rolí a údržbu systému na úrovni úřadu."
-    link: "/admin-prirucka/00-Titulni-strana" # Zde pak dáte reálný odkaz
+    link: "/admin-prirucka/00-titulni-strana"
     
-  - title: "Portál stavebníka"
+  - icon: 🌐
+    title: "Portál stavebníka"
     details: "Průvodce pro externí uživatele a žadatele."
-    link: "/portal-stavebnika/01-Uvod"
+    link: "/portal-stavebnika/01-uvod"
 ---
