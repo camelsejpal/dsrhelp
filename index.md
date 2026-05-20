@@ -10,7 +10,7 @@ features:
   - icon: 📘
     title: "Obecná příručka"
     details: "Kompletní návod pro referenty a úředníky. Obsahuje vše od přihlášení až po řízení a dokumenty."
-    link: "/obecna-prirucka/00-uvodni-informace"
+    link: "/obecna-prirucka/00-Uvodni-informace"
     
   - icon: 🛠️
     title: "Příručka lokálního administrátora"
