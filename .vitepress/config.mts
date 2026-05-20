@@ -11,7 +11,8 @@ export default defineConfig({
     nav: [
       { text: 'Domů', link: '/' },
       { text: 'Obecná příručka', link: '/obecna-prirucka/00-Uvodni-informace' },
-      { text: 'Příručka lokálního administrátora', link: '/admin-prirucka/00-Titulni-strana' }
+      { text: 'Příručka lokálního administrátora', link: '/admin-prirucka/00-Titulni-strana' },
+      { text: 'Vypravování dokumentů', link: '/vypraveni-prirucka/00-uvodni-informace' }
     ],
 
     // Vícenásobné levé menu (Sidebar) rozdělené podle složek
@@ -55,6 +56,34 @@ export default defineConfig({
             { text: '3. Účel dokumentu', link: '/admin-prirucka/03-3-Ucel-dokumentu' },
             { text: '4. Přihlášení', link: '/admin-prirucka/04-4-Prihlaseni' },
             { text: '5. Administrace lokální administrátor', link: '/admin-prirucka/05-5-Administrace-lokalni-administrator' }
+          ]
+        }
+      ],
+
+      // NOVÁ SEKCE PRO VYPRAVOVÁNÍ DOKUMENTŮ
+      '/vypraveni-prirucka/': [
+        {
+          text: 'Vypravování dokumentů',
+          items: [
+            { text: 'Úvodní informace', link: '/vypraveni-prirucka/00-uvodni-informace' },
+            { text: '1. Přidání osoby do řízení', link: '/vypraveni-prirucka/01-1-pridani-osoby-do-rizeni' },
+            { text: '2. Ověření', link: '/vypraveni-prirucka/02-2-overeni' },
+            { text: '3. Zahraniční osoby', link: '/vypraveni-prirucka/03-3-zahranicni-osoby' },
+            { text: '4. Způsob komunikace', link: '/vypraveni-prirucka/04-4-zpusob-komunikace' },
+            { text: '5. Podmínky vypravení', link: '/vypraveni-prirucka/05-5-podminky-vypraveni' },
+            { text: '6. Obsah vypravení', link: '/vypraveni-prirucka/06-6-obsah-vypraveni' },
+            { text: '7. Vypravení do zahraničí', link: '/vypraveni-prirucka/07-7-vypraveni-do-zahranici' },
+            { text: '8. Vypravování službou HKP', link: '/vypraveni-prirucka/08-8-vypravovani-sluzbou-hkp' },
+            { text: '9. Ruční vypravení', link: '/vypraveni-prirucka/09-9-rucni-vypraveni' },
+            { text: '10. Tisk adres na obálky', link: '/vypraveni-prirucka/10-10-tisk-adres-na-obalky' },
+            { text: '11. Převzetí osobně', link: '/vypraveni-prirucka/11-11-vypraveni-prevzeti-osobne' },
+            { text: '12. Vypravení vyhláškou', link: '/vypraveni-prirucka/12-12-vypraveni-vyhlaskou' },
+            { text: '13. Opětovné vypravení', link: '/vypraveni-prirucka/13-13-opetovne-vypraveni-dokumentu' },
+            { text: '14. Doručenky', link: '/vypraveni-prirucka/14-14-dorucenky' },
+            { text: '15. Stav vypravení', link: '/vypraveni-prirucka/15-15-stav-vypraveni' },
+            { text: '16. Notifikace', link: '/vypraveni-prirucka/16-16-notifikace' },
+            { text: '17. Důvody nevypravení', link: '/vypraveni-prirucka/17-17-konkretni-duvody-nevypraveni' },
+            { text: '18. Podpora', link: '/vypraveni-prirucka/18-18-podpora' }
           ]
         }
       ]
