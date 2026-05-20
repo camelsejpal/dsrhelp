@@ -22,7 +22,7 @@ features:
     details: "Průvodce pro externí uživatele a žadatele."
     link: "/portal-stavebnika/01-uvod"
 
-     - icon: 
+     - icon: 📩
     title: "Příručka Vypravení a HKP"
     details: "Návod jak na vypravení dokumentů v ISSŘ."
     link: "/vypraveni-prirucka/00-Uvodni-informace"
