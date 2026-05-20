@@ -28,9 +28,7 @@ Pro přechod do administrace klikněte na tlačítko `Administrace` v levém dol
 Bankovní spojení je důležité pro tvorbu platebních příkazů. Bankovní účet uveďte v plné formě včetně kódu banky.
 :::
 
-![](_page_8_Picture_0.jpeg)
-![](_page_8_Picture_1.jpeg)
-![](_page_8_Picture_2.jpeg)
+
 ![](_page_8_Figure_3.jpeg)
 
 ### 5.1.2 Nastavení rolí zaměstnancům stavebního úřadu
@@ -44,17 +42,13 @@ Bankovní spojení je důležité pro tvorbu platebních příkazů. Bankovní �
 4. Ve vyskakovacím okně vyberte z nabídky požadované role. Zaměstnanci přidejte roli `Referent`, `Vedoucí zaměstnanec` nebo `Zaměstnanec sekretariátu`. K těmto lze volitelně přidat roli `Oprávnění potvrzení platby` nebo `Podpisové oprávnění`. 
 5. Roli `JIP-KAAS role` ponechte uživateli vždy zaškrtnutou.
 
-![](_page_10_Picture_0.jpeg)
-![](_page_10_Picture_1.jpeg)
-![](_page_10_Picture_2.jpeg)
+
 ![](_page_10_Picture_4.jpeg)
 
 6. Roli přidělíte kliknutím na tlačítko `Potvrdit` ve vyskakovacím okně.
 
 ![](_page_10_Picture_6.jpeg)
-![](_page_11_Picture_0.jpeg)
-![](_page_11_Picture_1.jpeg)
-![](_page_11_Picture_2.jpeg)
+
 
 7. Role je přidělena, na detailu uživatele nyní vidíte novou roli.
 
@@ -69,21 +63,12 @@ Kroky je potřebné vykonat pro všechny zaměstnance úřadu jednotlivě. Každ
 1. V menu administrace přejděte pod záložku `Adresářová struktura` a do podmenu `Uživatelé`.
 2. V seznamu klikněte na vybraného uživatele a následně klikněte na černé tlačítko `Upravit` u atributu **Role**.
 
-![](_page_12_Picture_0.jpeg)
-![](_page_12_Picture_1.jpeg)
-![](_page_12_Picture_2.jpeg)
 ![](_page_12_Picture_3.jpeg)
 
 3. Ve vyskakovacím okně vyberte z nabídky role. Zaměstnanci přidejte roli `Referent`, `Vedoucí zaměstnanec` nebo `Zaměstnanec sekretariátu`. 
 4. Roli `JIP-KAAS role` ponechte uživateli zaškrtnutou.
 
-![](_page_13_Picture_0.jpeg)
-![](_page_13_Picture_1.jpeg)
-![](_page_13_Picture_2.jpeg)
 ![](_page_13_Figure_3.jpeg)
-![](_page_14_Picture_0.jpeg)
-![](_page_14_Picture_1.jpeg)
-![](_page_14_Picture_2.jpeg)
 
 5. Roli přidělíte kliknutím na `Potvrdit`.
 
@@ -92,27 +77,16 @@ Kroky je potřebné vykonat pro všechny zaměstnance úřadu jednotlivě. Každ
 6. Role je přidělena, na detailu uživatele vidíte novou roli.
 
 ![](_page_14_Picture_6.jpeg)
-![](_page_15_Picture_0.jpeg)
-![](_page_15_Picture_1.jpeg)
-![](_page_15_Picture_2.jpeg)
-![](_page_16_Picture_0.jpeg)
-![](_page_16_Picture_1.jpeg)
-![](_page_16_Picture_2.jpeg)
+
 
 ### 5.1.4 Vyplnění osoby pro příjem dokumentů
 
 1. Přejděte do `Administrace` -> položka `Úřady`, vyberte vlastní organizaci a rozklikněte detail.
 2. Na detailu vpravo nahoře klikněte na tlačítko `Upravit`.
 
-![](_page_17_Picture_0.jpeg)
-![](_page_17_Picture_1.jpeg)
-![](_page_17_Picture_2.jpeg)
 
 3. V editačním režimu nastavte doposud nevyplněné pole **Příjem dokumentů** na jednoho z uživatelů úřadu. Systém nabídne na výběr pouze uživatele s potřebnou rolí.
 
-![](_page_18_Picture_0.jpeg)
-![](_page_18_Picture_1.jpeg)
-![](_page_18_Picture_2.jpeg)
 
 4. Po výběru uživatele vpravo nahoře klikněte na tlačítko `Uložit`.
 
@@ -120,9 +94,7 @@ Kroky je potřebné vykonat pro všechny zaměstnance úřadu jednotlivě. Každ
 
 5. Ověřte po uložení, že je nastaven správný uživatel pro příjem dokumentů.
 
-![](_page_19_Picture_0.jpeg)
-![](_page_19_Picture_1.jpeg)
-![](_page_19_Picture_2.jpeg)
+
 ![](_page_19_Picture_3.jpeg)
 ![](_page_19_Picture_4.jpeg)
 ![](_page_19_Figure_5.jpeg)
