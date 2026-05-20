@@ -39,3 +39,9 @@ title: Titulní strana
 | 5.3.6 Zaměstnanec sekretariátu SÚ/DO                                                                 | 31 |
 | 5.3.7 Oprávnění potvrzení platby SÚ/DO                                                               | 31 |
 | 5.3.8 Podpisové oprávnění SÚ/DO                                                                      |    |
+
+![](_page_2_Picture_0.jpeg)
+
+![](_page_2_Picture_1.jpeg)
+
+![](_page_2_Picture_2.jpeg)

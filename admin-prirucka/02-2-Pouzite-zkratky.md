@@ -2,7 +2,7 @@
 title: 2. Použité zkratky
 ---
 
-# <span id="page-3-0"></span>**<sup>2</sup>**Použité zkratky
+# 2. Použité zkratky
 
 **Zkratky, které se v dokumentu vyskytují, jsou popsány v následující tabulce.**
 

@@ -2,7 +2,7 @@
 title: 3. Účel dokumentu
 ---
 
-# <span id="page-4-0"></span>**<sup>3</sup>** Účel dokumentu
+# 3. Účel dokumentu
 
 Tato dokumentace byla vypracována s cílem poskytnout zaměstnancům stavebních úřadů a dotčených orgánů, kteří budou tento systém používat, komplexní a snadno přístupný průvodce jeho používáním. Jeho hlavním účelem je usnadnit vaši každodenní práci, zvýšit vaši efektivitu a pomoci vám plně využívat všechny funkce a nástroje, které systém nabízí.
 

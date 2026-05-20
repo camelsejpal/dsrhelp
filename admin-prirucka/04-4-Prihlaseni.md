@@ -2,9 +2,9 @@
 title: 4. Přihlášení
 ---
 
-# <span id="page-5-0"></span>**<sup>4</sup>** Přihlášení
+# 4. Přihlášení
 
-# <span id="page-5-1"></span>4.1 Přihlášení pomocí JIPKASS
+## 4.1 Přihlášení pomocí JIPKASS
 
 Uživatel přejde na přihlašovací stránku a klikne na tlačítko *JIPKASS*.
 
