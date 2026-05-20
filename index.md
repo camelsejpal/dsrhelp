@@ -15,7 +15,7 @@ features:
   - icon: 🛠️
     title: "Příručka lokálního administrátora"
     details: "Návod pro správu uživatelů, nastavování rolí a údržbu systému na úrovni úřadu."
-    link: "/admin-prirucka/00-titulni-strana"
+    link: "/admin-prirucka/00-Titulni-strana"
     
   - icon: 🌐
     title: "Portál stavebníka"
