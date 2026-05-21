@@ -11,7 +11,7 @@ V případě, že řízení bylo založeno na základě žádosti doručené z P
 
 Odesílatel je ověřen v detailu dokumentu, záložka `Základní informace`.
 
-[![Figure 9](_page_3_Figure_9.jpeg)](_page_3_Figure_9.jpeg)
+![Figure 9](_page_3_Figure_9.jpeg)
 
 Informace o ztotožnění je uvedena v auditním záznamu.
 

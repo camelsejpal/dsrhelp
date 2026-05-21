@@ -15,5 +15,8 @@
   "type": "commonjs",
   "devDependencies": {
     "vitepress": "^1.6.4"
+  },
+  "dependencies": {
+    "@fancyapps/ui": "^6.1.14"
   }
 }
