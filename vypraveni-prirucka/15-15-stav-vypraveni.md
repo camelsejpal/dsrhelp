@@ -1,43 +1,38 @@
 ---
 title: 15. Stav vypravení
+outline: deep
 ---
 
 # 15. Stav vypravení
 
 ## 15.1 Jednotlivé stavy vypravení
 
-Každé vypravení může být v jednom z následujících stavů:
-- **Čeká na vypravení:** jedná se o stav, kdy ještě nebyl dokument adresátovi vypraven, ale již je k vypravení připraven.
-- **Vypraveno:** dokument již byl adresátovi vypraven, ale stále nebyl doručen.
-- **Doručeno čeká na doručenku:** dokument byl úspěšně doručen, ale v systému zatím není doručenka evidována. Může se jednat například o dokumenty vypravené HKP, u kterých se doručenka nahraje do systému později.
-- **Doručeno:** dokument byl adresátovi úspěšně doručen a v systému je již evidována doručenka nebo jiný záznam o doručení (protokol o osobním předání, záznam o svěšení z úřední desky atp.)
-- **Nedoručeno zpracováno:** dokument nebyl z nějakého důvodu doručen a tato situace již byla zpracována/zaevidována, například: byla vrácena obálka a bylo vydáno rozhodnutí o opakovaném doručení.
-- **Stornováno:** vypravení dokumentu bylo zastaveno/stornováno před samotným doručením. Stornování vypravení může být například z důvodu omylem založeného vypravení nebo rozhodnutím nahradit dokument jeho novou verzí, která bude následně vypravena místo stornovaného dokumentu.
-- **Vráceno:** stav Vráceno se týká převážně zásilek vypravených pomocí HKP a ručního vypravení a je v systému ISSŘ evidován s několika dalšími dodatečnými stavy:
-  - **adresát neznámý:** Obvykle se jedná o situaci, kdy taková osoba/adresát na dané adrese vůbec neexistuje, například nemá na adrese poštovní nebo jinou doručovací schránku.
-  - **adresát se odstěhoval bez udání adresy:** Jedná se o případ, kdy osoba, které bylo vypravováno na adrese dříve pobývala, ale již zde nebydlí a neudala novou adresu. Zásilku tak není možné ani přeposlat.
-  - **nepřijato:** Adresát (nebo jeho oprávněná osoba) odmítl zásilku převzít.
-  - **nevyžádáno:** Zásilka nebyla během prvotního pokusu o doručení doručena a následně byla uložena k vyzvednutí na poště. Adresát si ji ale v určené lhůtě nevyzvedl.
-  - **adresa nedostatečná:** Adresa pro doručení je neúplná nebo nepřesná, takže doručení nebylo možné.
-  - **jiný důvod (ověřeno):** Zásilka byla vrácena z jiného důvodu než z ostatních uvedených. Tento důvod byl ověřen – potvrzen. Mohlo se jednat například o chybu na straně doručovatele nebo specifickou situaci doloženou dokladem.
-  - **jiný důvod (neověřeno):** Zásilka byla vrácena z jiného důvodu než z ostatních uvedených. Tento důvod ale nebyl spolehlivě ověřen – informace od doručovatele chybí, nebo jsou nejednoznačné či nejasné.
+Každé vypravení může být v jednom z těchto stavů:
+* **Čeká na vypravení:** Dokument je k vypravení připraven, ale zatím neodešel.
+* **Vypraveno:** Dokument byl odeslán adresátovi, ale ještě nebyl doručen.
+* **Doručeno čeká na doručenku:** Dokument byl doručen, ale eSSL/systém zatím fyzickou doručenku nezpracoval (typické u HKP).
+* **Doručeno:** Dokument doručen a doručenka/protokol je evidována.
+* **Nedoručeno zpracováno:** Dokument nebyl doručen, ale situace už byla úředníkem vyřešena (např. opakovaným doručením).
+* **Stornováno:** Vypravení bylo před doručením zastaveno (např. omylem založené vypravení).
+* **Vráceno:** Typické u HKP nebo pošty. Evidováno s doplňkovými stavy:
+  * *adresát neznámý* (neexistuje schránka/jméno)
+  * *adresát se odstěhoval*
+  * *nepřijato* (odmítnuto adresátem)
+  * *nevyžádáno* (nevyzvednuto v úložní době)
+  * *adresa nedostatečná*
+  * *jiný důvod (ověřeno)*
+  * *jiný důvod (neověřeno)*
 
-## 15.2 Tlačítko pro ruční synchronizaci stavu vypravení
+## 15.2 Tlačítko pro ruční synchronizaci
 
-V záložce Vypravení každého dokumentu je dostupné tlačítko `Ruční synchronizace stavu vypravení`. Tato funkcionalita umožňuje aktualizaci všech údajů v záložce vypravení u všech adresátů.
-
-Po načtení synchronizace doporučujeme zavřít daný panel (pomocí tlačítka X) a znovu otevřít příslušné číslo jednací. Poté přejít do záložky "Vypravení", kde se již zobrazí aktuální stav.
+V záložce `Vypravení` klikněte na tlačítko `Ruční synchronizace stavu vypravení` pro vynucení okamžité aktualizace stavů od eSSL/Pošty.
 
 ## 15.3 Podací číslo
 
-V ISSŘ je u dokumentů vypravených prostřednictvím HKP dostupná informace o podacím čísle zásilky, včetně interaktivního odkazu na webové stránky České pošty pro sledování zásilky. Tento údaj naleznete u každého účastníka v záložce "Vypravení" v poli "Podací číslo".
+U HKP dokumentů naleznete v poli **Podací číslo** interaktivní odkaz na sledování zásilky na webu České pošty. U ručního doručení vyplňujete toto číslo manuálně.
 
-Podací číslo je také možné zadat v rámci evidování doručenky v případě ručního vypravení.
+## 15.4 Řazení a filtrování
 
-## 15.4 Řazení a filtrování v tabulkovém režimu vypravení
-
-V tabulkovém zobrazení vypravení lze řadit jednotlivé položky vypravení vzestupně či sestupně a filtrovat, což usnadňuje kontrolu, u kterých účastníků řízení ještě nedošlo k doručení. Stejně jako v jiných případech, lze individuálně upravit zobrazení a pořadí sloupců dle Vašich potřeb.
-
-Jedná se o položky Osoba, Doručenka, Vypravený hlavní dokument, Akce nelze logicky řadit. Prázdná pole se vždy zobrazují na konci seznamu.
+V tabulkovém zobrazení vypravení lze záznamy řadit a filtrovat. To obrovsky usnadňuje kontrolu nedoručených zásilek u řízení s desítkami účastníků.
 
 ![](_page_57_Picture_12.jpeg)

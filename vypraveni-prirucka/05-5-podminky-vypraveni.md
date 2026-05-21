@@ -1,24 +1,23 @@
 ---
 title: 5. Podmínky vypravení
+outline: deep
 ---
 
 # 5. Podmínky vypravení
 
-Aby bylo možné dokument bez problémů vypravit, je potřeba splnit podmínky pro vypravení. Je nutné, aby osoba (adresát dokumentu) měla vyplněny následující údaje:
-- **FO**: jméno, příjmení, datum narození, datová schránka/adresa dle způsobu komunikace,
-- **FOP**: jméno, příjmení, datum narození, IČ, datová schránka/adresa dle způsobu komunikace,
-- **PO**: název, IČ, datová schránka/adresa dle způsobu komunikace.
+Aby bylo možné dokument bez problémů vypravit, je potřeba splnit podmínky pro vypravení. Je nutné, aby osoba (adresát dokumentu) měla vyplněny následující údaje (pravidla platí i pro zahraniční subjekty):
 
-Stejná pravidla platí i pro zahraniční subjekty.
+* **Fyzická osoba (FO):** jméno, příjmení, datum narození, datová schránka / adresa dle způsobu komunikace.
+* **Fyzická osoba podnikající (FOP):** jméno, příjmení, datum narození, IČ, datová schránka / adresa dle způsobu komunikace.
+* **Právnická osoba (PO):** název, IČ, datová schránka / adresa dle způsobu komunikace.
 
-Pokud nejsou vyplněna všechna pole potřebná pro odeslání dokumentu, systém na tuto skutečnost upozorní: ikonou trojúhelníku s vykřičníkem v kartovém i tabulkovém přehledu osob,
+::: warning CHYBĚJÍCÍ ÚDAJE
+Pokud nejsou vyplněna všechna pole potřebná pro odeslání dokumentu, systém na tuto skutečnost upozorní:
+1. Ikonou trojúhelníku s vykřičníkem v přehledu osob.
+2. Textovým upozorněním v editačním dialogu osoby.
+3. Během zpracování úkolu `Ukončit tvorbu dokumentu`.
+:::
 
 ![](_page_27_Figure_5.jpeg)
-
-textovým upozorněním v editačním dialogu osoby,
-
 ![](_page_27_Picture_7.jpeg)
-
-v úkolu "Ukončit tvorbu dokumentu", nebo úkolu "Odeslat ke schválení dokument" (pokud se jedná o starý proces zpracování vlastního dokumentu).
-
 ![](_page_28_Figure_0.jpeg)
