@@ -1,32 +1,32 @@
 import DefaultTheme from 'vitepress/theme'
-import { Fancybox } from '@fancyapps/ui'
-import '@fancyapps/ui/dist/fancybox/fancybox.css' // Import CSS stylů pro Fancybox
 import { onMounted, watch, nextTick } from 'vue'
 import { useData } from 'vitepress'
+
+// CSS styl importujeme normálně, ten buildu nevadí
+import '@fancyapps/ui/dist/fancybox/fancybox.css'
 
 export default {
   ...DefaultTheme,
   setup() {
     const { route } = useData()
 
-    // Funkce, která vyhledá obrázky a připraví je pro Fancybox
-    const initFancybox = () => {
-      // Ukončíme předchozí instanci, aby se nehromadily na pozadí
-      Fancybox.close()
+    const initFancybox = async () => {
+      // Tímto zajistíme, že se kód spustí POUZE v prohlížeči, ne při buildu
+      if (typeof window === 'undefined') return
+
+      // Dynamicky importujeme celou knihovnu až za běhu v prohlížeči
+      const { Fancybox } = await import('@fancyapps/ui')
       
-      // Nabindujeme Fancybox na všechny obrázky uvnitř obsahu (.vp-doc)
+      Fancybox.close()
       Fancybox.bind('.vp-doc img', {
-        // Zde můžete definovat globální chování (např. animace, popisky)
-        Hash: false, // Vypne přidávání #hashů do URL při otevření obrázku
+        Hash: false,
       })
     }
 
-    // Inicializace při prvním načtení stránky
     onMounted(() => {
       initFancybox()
     })
 
-    // Klíčová část pro VitePress: Re-inicializace při překliknutí na jinou stránku
     watch(
       () => route.path,
       () => nextTick(() => initFancybox())
