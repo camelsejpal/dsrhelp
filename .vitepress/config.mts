@@ -34,7 +34,8 @@ export default defineConfig({
       { text: 'Domů', link: '/' },
       { text: 'Obecná příručka', link: '/obecna-prirucka/00-Uvodni-informace' },
       { text: 'Příručka lokálního administrátora', link: '/admin-prirucka/00-Titulni-strana' },
-      { text: 'Vypravování dokumentů', link: '/vypraveni-prirucka/00-uvodni-informace' }
+      { text: 'Vypravování dokumentů', link: '/vypraveni-prirucka/00-uvodni-informace' },
+      { text: 'Řízení mimo ISSŘ', link: '/mimoissr-prirucka/00-titulni-strana' }
     ],
 
     // Vícenásobné levé menu (Sidebar) rozdělené podle složek
@@ -106,6 +107,22 @@ export default defineConfig({
             { text: '16. Notifikace', link: '/vypraveni-prirucka/16-16-notifikace' },
             { text: '17. Důvody nevypravení', link: '/vypraveni-prirucka/17-17-konkretni-duvody-nevypraveni' },
             { text: '18. Podpora', link: '/vypraveni-prirucka/18-18-podpora' }
+          ]
+        }
+      ],
+
+      // SEKCE PRO ŘÍZENÍ MIMO ISSŘ
+      '/mimoissr-prirucka/': [
+        {
+          text: 'Řízení mimo ISSŘ',
+          items: [
+            { text: 'Titulní strana', link: '/mimoissr-prirucka/00-titulni-strana' },
+            { text: '1. Evidence dokumentů a řízení', link: '/mimoissr-prirucka/01-evidence-dokumentu' },
+            { text: '2. Zpracování žádosti', link: '/mimoissr-prirucka/02-zpracovani-zadosti' },
+            { text: '3. Zobrazení parametrů', link: '/mimoissr-prirucka/03-zobrazeni-parametru' },
+            { text: '4. Řízení vedené mimo ISSŘ', link: '/mimoissr-prirucka/04-rizeni-vedene-mimo-issr' },
+            { text: '5. Tvorba rozhodnutí a usnesení', link: '/mimoissr-prirucka/05-tvorba-rozhodnuti' },
+            { text: '6. Ukončení řízení', link: '/mimoissr-prirucka/06-ukonceni-rizeni' }
           ]
         }
       ]

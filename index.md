@@ -26,4 +26,9 @@ features:
     title: "Příručka Vypravení a HKP"
     details: "Návod jak na vypravení dokumentů v ISSŘ."
     link: "/vypraveni-prirucka/00-uvodni-informace"
+  
+  - icon: 📩
+    title: "Příručka k evidenci řízení mimo ISSŘ"
+    details: "Návod jak zaevidovat řízení, které bylo vedeno mimo ISSŘ."
+    link: "/mimoissr-prirucka/00-titulni-strana"
 ---
